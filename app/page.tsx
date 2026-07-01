@@ -31,7 +31,7 @@ export default function HomePage() {
                 <span className="hero-eyebrow-text">{hero.eyebrow}</span>
               </div>
               <h1 className="display hero-title">
-                Makanan yang<br />beneran <span className="highlight">kerasa.</span>
+                Rasa yang jujur,<br />dari tangan yang <span className="highlight">peduli.</span>
               </h1>
               <p className="hero-desc">
                 Dimsum, bakso, kebab, cemilan, dan coklat. Semua dibuat buat kamu yang nggak mau kompromi soal rasa.

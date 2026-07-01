@@ -6,13 +6,7 @@ import MenuCard from "./MenuCard";
 
 const CATS = [
   { id: "all", label: "Semua" },
-  { id: "dimsum", label: "🥟 Dimsum" },
-  { id: "bakso", label: "🍜 Bakso" },
-  { id: "bites", label: "🍖 Bites" },
-  { id: "snack",  label: "🍟 Snack" },
-  { id: "sweet", label: "🍫 Sweet" },
-  { id: "sips", label: "🧋 Sips" },
-  { id: "kopi",   label: "☕ Kopi" },
+
 ];
 
 export default function HomeMenuTabs({ items }: { items: MenuItem[] }) {

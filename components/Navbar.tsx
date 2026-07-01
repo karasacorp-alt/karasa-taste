@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useCartStore } from "@/lib/store";
+import Image from "next/image";
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -34,9 +35,16 @@ export default function Navbar() {
       <div className="container">
         <div className="nav-inner">
           <Link className="nav-logo" href="/">
-            <div className="nav-logo-badge"><span>K</span></div>
-            <span className="nav-logo-name">KARASA</span>
-          </Link>
+  <div className="nav-logo-badge"><span>K</span></div>
+  <Image
+    src="/Logo-Karasa-Taste.avif"
+    alt="Karasa Taste"
+    width={150}
+    height={40}
+    style={{ objectFit: "contain" }}
+    priority
+  />
+</Link>
 
           <div className="nav-links">
             {links.map((l) => (

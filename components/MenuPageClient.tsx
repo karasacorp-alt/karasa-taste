@@ -6,13 +6,13 @@ import type { MenuItem } from "@/lib/types";
 import MenuCard from "./MenuCard";
 
 const CATEGORIES = [
-  { id: "all",    label: "Semua Menu", emoji: "🍽️" },
-  { id: "dimsum", label: "Dimsum",     emoji: "🥟", tagline: "Dikukus, bukan dipanaskan." },
-  { id: "bakso",  label: "Bakso",      emoji: "🍜", tagline: "Kuah spesial, gigitan yang berasa." },
-  { id: "bites",  label: "Bites",      emoji: "🍖", tagline: "Gigitan yang nggak setengah-setengah." },
-  { id: "snack",  label: "Snack",       emoji: "🍟", tagline: "Cemilan yang bikin nagih." },
-  { id: "sweet",  label: "Sweet",      emoji: "🍫", tagline: "Buat yang pengen happy ending." },
-  { id: "sips",   label: "Sips",       emoji: "🧋", tagline: "Biar makin kerasa." },
+  { id: "all",    label: "Semua Menu",  emoji: "🍽️" },
+  { id: "dimsum", label: "Dimsum",      emoji: "🥟", tagline: "Dikukus, bukan dipanaskan." },
+  { id: "bakso",  label: "Bakso",       emoji: "🍜", tagline: "Kuah spesial, gigitan yang berasa." },
+  { id: "bites",  label: "Cemilan",     emoji: "🍖", tagline: "Gigitan yang nggak setengah-setengah." },
+  { id: "snack",  label: "Snack",       emoji: "🍟", tagline: "Renyah, nagih, susah berhenti." },
+  { id: "sweet",  label: "Dessert",     emoji: "🍫", tagline: "Buat yang pengen happy ending." },
+  { id: "sips",   label: "Minuman",     emoji: "🥤", tagline: "Pelengkap yang bikin makin kerasa." },
   { id: "kopi",   label: "Kopi",        emoji: "☕", tagline: "Buat yang butuh semangat." },
 ];
 

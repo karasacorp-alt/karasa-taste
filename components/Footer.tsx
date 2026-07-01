@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -8,10 +9,23 @@ export default function Footer() {
           <div>
             <div className="footer-logo">
               <div className="footer-logo-badge"><span>K</span></div>
-              <span className="footer-logo-name">KARASA</span>
-            </div>
+  <Image
+    src="/Logo-Karasa-Taste.avif"
+    alt="Karasa Taste"
+    width={130}
+    height={36}
+    style={{
+      objectFit: "contain",
+      filter: "brightness(0) invert(1)",
+      opacity: 0.8
+    }}
+  />
+</div>
             <p className="footer-desc">
-              Makanan yang beneran kerasa. Dimsum, bakso, kebab, cemilan, dan coklat untuk semua kalangan.
+                 Rasa yang jujur, dari tangan yang peduli. Dimsum, bakso, kebab, cemilan, dan coklat untuk semua kalangan.
+            </p>
+            <p style={{ fontSize: "11px", color: "rgba(247,242,234,0.2)", marginTop: "12px", letterSpacing: "0.05em" }}>
+              Bagian dari <span style={{ color: "rgba(247,242,234,0.35)" }}>Karasa Group</span>
             </p>
           </div>
           <div>
@@ -32,7 +46,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="footer-bottom">
-          <span className="footer-copy">© 2025 Karasa. All rights reserved.</span>
+          <span className="footer-copy">© 2025 Karasa Taste · Karasa Group. All rights reserved.</span>
           <span className="footer-tagline">Rasanya? Beneran Kerasa. ✦</span>
         </div>
       </div>
